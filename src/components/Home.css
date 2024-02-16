@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+video{
+    object-fit: cover;
+    width: 99%;
+    height: 98vh;
+    position: fixed;
+    z-index: -2;
+}
+
+.home-container{
+    /* border:1px solid rgb(0, 255, 102); */
+    float: top;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px #3e0e0ea3;
+    object-fit: contain;
+}
+
+.b-ctn{
+    border: 1px solid white;
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.home-btn{
+    margin-top: 13%;
+}
+
+.home-btn button{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 30px;
+    border: 1px solid #800000;
+    background-color: white;
+    color: #800000;
+    font-weight: bold;
+    box-shadow: 2px 2px gray;
+}
+
+.home-btn button:hover{
+    background-color: 	#800000;
+    color: white;
+}
+
+
+.header-container{
+    width: 100%;
+    height: 10vh;
+}
+
+.logo-container{
+    position: relative;
+    padding-top: 6px;
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    background: transparent;
+    padding-left: 20px;
+    float: left;
+}
+
+.title{
+    padding-top: 17px;
+    padding-left: 1px;
+    display:inline-block;  
+}
+
+text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    color: antiquewhite;
+}
+
+.body{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+h1{
+    color: maroon;
+    font-family: 'Quicksann', sans-serif;
+    font-size: 90px;
+    text-shadow: 3px 3px gray;
+}
+
+h1:hover{
+    text-shadow: 5px 5px gray ;
+}

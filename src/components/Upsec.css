@@ -1,0 +1,174 @@
+.upload-container{
+     float: top;
+     height: 98vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: inset 0 0 0 1000px #3e0e0ea3;
+     object-fit: contain;
+ }
+ 
+ video{
+     object-fit: cover;
+     width: 99%;
+     height: 98vh;
+     position: fixed;
+     z-index: -2;
+ }
+ 
+ .center-screen{
+     padding-top: 5%;
+     width: 70%;
+     height: 80%;
+ }
+
+ .c-screen{
+    margin: 5%;
+    width: 70%;
+    height: 80%;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+}
+
+.logo{
+    width: 60px;
+    float: left;
+    margin-top:  5px;
+    margin-left: 5px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.puptitle{
+    width: 70%;
+    float: left;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: maroon;
+    text-shadow: 1px 1px gray;
+}
+.ctntitle{
+    border: 1px solid #ffffff;
+    width: 99.8%;
+    height: 15%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: maroon;
+    text-shadow: 1px 1px gray;
+}
+.ctn1{
+    width: 33%;
+    height: 75%;
+    float: left;
+}
+
+.ctn2{
+    width: 32.7%;
+    height: 75%;
+    float: left;
+}
+
+.ctn3{
+    width: 33%;
+    height: 75%;
+    float: right;
+}
+
+.divs{
+    width: 4px;
+    height: 50%;
+    float: left;
+    border-radius: 20px;
+    margin-top: 6%;
+    background-color: maroon;
+}
+
+.bluetooth{
+    width: 300px;
+    height: 250px;
+    align-self: center;
+    transform: translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+    margin-left: 6%;
+}
+
+.bluetooth:hover{
+    box-shadow: 6px, 6px, 40px, 10px hwb(0 12% 66%);
+    transform: translateX(20px);
+}
+
+.nfc{
+    width: 300px;
+    height: 200px;
+    align-self: center;
+    transform: translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.nfc:hover{
+    box-shadow: 6px, 6px, 40px, 10px hwb(0 12% 66%);
+    transform: translateX(20px);
+}
+
+.flash{
+    width: 300px;
+    height: 200px;
+    align-self: center;
+    transform: translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+    margin-left: 6%;
+    margin-top: 7%;
+}
+
+.flash:hover{
+    box-shadow: 6px, 6px, 40px, 10px hwb(0 12% 66%);
+    transform: translateX(20px);
+}
+
+.nfc-text{
+    border: 1px solid white;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px gray;
+    margin-top: 11%;
+}
+
+.bluetooth-text{
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px gray;
+}
+
+.flash-text{
+    border: 1px solid white;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px gray;
+    margin-top: 8%;
+}

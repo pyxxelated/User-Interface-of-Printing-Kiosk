@@ -1,0 +1,140 @@
+.upload-container{
+   /* border:1px solid rgb(0, 255, 102); */
+    float: top;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px #3e0e0ea3;
+    object-fit: contain;
+}
+
+video{
+    object-fit: cover;
+    width: 99%;
+    height: 98vh;
+    position: fixed;
+    z-index: -2;
+}
+
+.center-screen{
+    padding-top: 5%;
+    /* border:1px solid rgb(0, 255, 102); */
+    width: 70%;
+    height: 80%;
+}
+
+.up-body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.s-f-section{
+    /* border: solid 1px rgb(0, 255, 102); */
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+.section{
+    /* border: solid 1px rgb(0, 255, 102); */
+    width: 2px;
+    height: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 7px;
+    background-color: maroon;
+}
+
+.s-f-body{
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.s-files{
+    width: 350px;
+    height: 300px;
+    align-self: center;
+    transform: translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+}
+
+.s-files:hover{
+    box-shadow: 6px, 6px, 40px, 10px hwb(0 12% 66%);
+    transform: translateX(20px);
+}
+
+.s-f-text{
+    align-self: center;
+    /* border: solid 1px rgb(0, 255, 102); */
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.sel-text{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+    text-shadow: 1px 1px #bebdbd;
+}
+
+.sel-par{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+}
+
+.u-f-section{
+    /* border: solid 1px rgb(0, 255, 102); */
+    width: 49%;
+    height: 100%;
+    float: right;
+    float: top;
+}
+.u-f-body{
+    
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+.u-files{
+    width: 350px;
+    height: 300px;
+    align-self: center;  
+    transform: translateX(0px);
+    transition: 1.1s all;
+    cursor: pointer;
+}
+
+.u-files:hover{
+    box-shadow: 6px, 6px, 40px, 10px hwb(0 12% 66%);
+    transform: translateX(20px);
+}
+
+.u-f-text{
+    align-self: center;
+    /* border: solid 1px rgb(0, 255, 102); */
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.up-text{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+    text-shadow: 1px 1px #bebdbd
+}
+
+.up-par{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+}

@@ -1,0 +1,210 @@
+.cont-sec{
+    width: 100%;
+    height: 90%;
+}
+
+.pdfviewer-cont{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.pdfcont{
+    border: 1px solid #251d48;
+    width: 80%;
+    height: 80%;    
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.print-cont{
+    margin-top: 4%;
+    width: 59.5%;
+    height: 80%;
+    float: right;
+}
+
+.pcont{
+    height: 60px; 
+    width: 45%; 
+    float: left; 
+}
+
+.pcont1{
+    height: 60px; 
+    width: 54%; 
+    float: right; 
+}
+
+.pcont2{
+    height: 60px; 
+    width: 100%; 
+    float: left; 
+}
+
+.pcont3{
+    /* border: 1px solid #581d1d; */
+    height: 50%; 
+    width: 100%; 
+    float: left; 
+}
+
+.pheader{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    float: left;
+    width: 120px;
+}
+
+.pheader1{
+    font-size: 18px;
+    width: 180px;
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    margin-left: 6%;
+}
+
+.pheader2{
+    font-size: 18px;
+    width: 105px;
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    margin-left: 8.5%;
+}
+
+.dropdown select{
+    border: 1px, solid #ddd;
+    background: white;
+    width: 140px;
+    height: 40px;
+    float: left;
+    margin-top: 1.5%;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input-group{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0);
+    width: 120px;
+    height: 40px;
+    overflow: hidden;
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+   
+    /* transform: translate(-50%, -50%); */
+    
+   
+}
+
+.input-group .input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.input-group .input button{
+    width: 50px;
+    height: 100%;
+    border-radius: 10px;
+    background: #fff;
+    color: #222;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    transition: all 300ms ease-in-out;
+} 
+
+.input-group .input button:active{
+    background: hwb(0 51% 28%);
+    color: white
+}
+
+.input-group-text{
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+.form-cntrol{
+    width: 50px;
+    height: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.dropdown-cont{
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-top: 5%;
+}
+
+.t-price {
+    width: 49%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    text-align: center;
+}
+
+.t-price-cont{
+    width: 49%;
+    height: 60%;
+    float: left;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.i-coins{
+    width: 49%;
+    height: 50px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.i-coins-cont{
+    width: 49%;
+    height: 60%;
+    float: right;
+    margin-left: 1%;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.pbtn-cont{
+    margin-top: 56%;
+    width: 100%;
+    height: 20%;
+}
+
+.btn-print button{
+    background: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 32%;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 2px 2px gray;
+}
+
+.btn-print button:hover{
+    background: #800000;
+    color: white;
+
+}
